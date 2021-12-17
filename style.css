@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.objet {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #000000;
+}
+
+.box-principal {
+    padding: 150px;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 70px 20px 150px 20px;
+}
