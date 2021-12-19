@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 400px;
-    height: 500px;
+    height: 600px;
     border-radius: 15px;
 }
 
@@ -42,5 +42,17 @@ form {
 
 .input-standard {
     width: 50%;
-    padding: 10px 25px;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.input-nom {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.resultat {
+    border: 2px solid black;
+    background-color: #000000;
+    color: yellow;
 }

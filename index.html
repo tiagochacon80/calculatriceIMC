@@ -14,35 +14,41 @@
             <div class="objet-principal">
                 <h1>Calculatrice IMC</h1>
             </div>
-    
-            <fieldset class="sexe">
-                <legend>Sexe:</legend>
 
-                <label for="femme">Femme</label>
-                <input type="radio" name="sexe" id="femme" class="input-radio" checked>
+            <form>
+                <fieldset> 
+                    <legend>Sexe</legend>                   
 
-                <label for="homme">Homme</label> 
-                <input type="radio" name="sexe" id="homme" class="input-radio">
-                   
-            </fieldset>
-
-            <div class="nom">
-                <label for="nom">Nom</label>
-                <input type="text" id="nom" name="nom" class="input-standard">
-            </div>
-            <div class="taille">
-                <label for="taille">Taille</label>
-                <input type="number" id="taille" name="taille" class="input-standard">
-            </div>
-            <div class="poids">
-                <label for="poids">Poids</label>
-                <input type="number" id="poids" name="poids" class="input-standard">
-            </div>
+                    <label for="femme">Femme</label>
+                    <input type="radio" name="sexe" id="femme" class="input-radio" checked>
+                        
     
-            <button class="calculer">Calculer</button>
+                    <label for="homme">Homme</label> 
+                    <input type="radio" name="sexe" id="homme" class="input-radio">                    
+                </fieldset>  
+                
+                <span>Nom</span>
+                <input type="text" id="nom" name="nom" class="input-nom" placeholder="Nom et Prenom">
+                                              
+                <span>Taille</span>
+                <input type="number" id="taille" name="taille" class="input-standard" placeholder="1.80m">
+                <label for="taille">m</label>
+                                             
+                <span>Poids</span>
+                <input type="number" id="poids" name="poids" class="input-standard" placeholder="75kg">
+                <label for="poids">Kg</label>  
+                
+                <button class="calculer">Calculer</button>
+                
+                <div class=resultat>
+                    <p>Resultat</p>
+                </div>
+                            
+        
+               
+            </form>           
     
-            <div class="resultat">                
-            </div> 
+            
         </div>              
         
     </main>
