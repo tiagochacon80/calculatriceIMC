@@ -27,17 +27,21 @@
                     <input type="radio" name="sexe" id="homme" class="input-radio">                    
                 </fieldset>  
                 
-                <span>Nom</span>
+                <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom" class="input-nom" placeholder="Nom et Prenom">
-                                              
-                <span>Taille</span>
-                <input type="number" id="taille" name="taille" class="input-standard" placeholder="1.80m">
-                <label for="taille">m</label>
-                                             
-                <span>Poids</span>
-                <input type="number" id="poids" name="poids" class="input-standard" placeholder="75kg">
-                <label for="poids">Kg</label>  
+                   
+                <label for="taille">Taille</label>
+                <div class="unite-taille">                    
+                    <input type="number" id="taille" name="taille" class="input-standard" placeholder="1.80m"> 
+                    <span>M</span>                                                            
+                </div>
                 
+                <label for="poids">Poids</label>
+                <div class="unite-mesure">                    
+                    <input type="number" id="poids" name="poids" class="input-standard" placeholder="75kg">
+                    <span>Kg</span>
+                </div>                
+                               
                 <button class="calculer">Calculer</button>
                 
                 <div class=resultat>
