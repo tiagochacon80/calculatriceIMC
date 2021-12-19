@@ -15,14 +15,17 @@
                 <h1>Calculatrice IMC</h1>
             </div>
     
-            <div class="sexe">
-                <label for="sexe">Sexe</label>
-                <input type="radio" class="input-radio">
-                <label>Femme</label>
-                <input type="radio" class="input-radio">
-                <label for="sexe">Homme</label>
-    
-            </div>
+            <fieldset class="sexe">
+                <legend>Sexe:</legend>
+
+                <label for="femme">Femme</label>
+                <input type="radio" name="sexe" id="femme" class="input-radio" checked>
+
+                <label for="homme">Homme</label> 
+                <input type="radio" name="sexe" id="homme" class="input-radio">
+                   
+            </fieldset>
+
             <div class="nom">
                 <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom" class="input-standard">
@@ -36,7 +39,7 @@
                 <input type="number" id="poids" name="poids" class="input-standard">
             </div>
     
-            <button>Calculer</button>
+            <button class="calculer">Calculer</button>
     
             <div class="resultat">                
             </div> 
