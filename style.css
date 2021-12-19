@@ -30,11 +30,17 @@
     border-bottom: solid 10px black;
 }
 
-.input-standard {
+fieldset label {
+    margin: 0 0 10px
+}
+
+form {
     display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    margin: 0 0 10px;
-    width: 100%;
-    height: 50%;
+    flex-direction: column;
+    font-size: 20px;    
+}
+
+.input-standard {
+    width: 50%;
+    padding: 10px 25px;
 }
