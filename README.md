@@ -4,7 +4,7 @@
 
 <p>In this project I was able to practice more my knowledge in javascript, like functions, conditionals and how to call tags in HTML for javascript</p>
 
-<h2link:</h2>
+<h2>link:</h2>
 https://tiagochacon80.github.io/calculatriceIMC/
 
 <h2>Desktop</h2>
