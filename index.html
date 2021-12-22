@@ -15,7 +15,7 @@
                 <h1>Calculatrice IMC</h1>
             </div>
 
-            <form>
+            <form onsubmit="event.preventDefault()">
                 <fieldset> 
                     <legend>Sexe</legend>                   
 
@@ -32,7 +32,7 @@
                    
                 <label for="taille">Taille</label>
                 <div class="unite-taille">                    
-                    <input type="number" id="taille" name="taille" class="input-standard" placeholder="1.80m"> 
+                    <input type="number" id="taille" name="taille" step="0.01" min="0" max="10" class="input-standard" placeholder="1.80m"> 
                     <span>m</span>                                                            
                 </div>
                 
